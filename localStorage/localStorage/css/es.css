@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    /*background: linear-gradient(135deg, #74b9ff, #a29bfe);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.titulo{
+    color: #a3f6f7;
+}
+.titTarea{
+    color: #a3f6f7;
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 370px;
+}
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.save{
+    background: #a3f6f7;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.save:hover {
+    background: #8ad1d2;
+}
+
+.limpiar{
+    background: #a3f6f7;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.limpiar:hover {
+    background: #8ad1d2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #dfe6e9;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+li.completada {
+    text-decoration: line-through;
+    background: #b2bec3;
+    color: #636e72;
+}
